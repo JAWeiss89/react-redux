@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: rgb(24, 180, 252);
+}
+
+.section {
+  width: 100%;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,28 @@
+.TodoList {
+    height: 500px;
+    width: 400px;
+    background-color: rgb(230, 230, 230);
+    border-radius: 10px;
+}
+
+.TodoList ul {
+    margin: 10px;
+    padding: 0;
+}
+
+.TodoList li {
+    list-style: none;
+}
+
+.TodoList-remove-btn {
+    margin-left: 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    color: grey;
+    font-weight: 500;
+    padding: 1px;
+    width: 20px;
+    height:20px;
+    cursor: pointer;
+}

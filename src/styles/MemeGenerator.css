@@ -1,0 +1,32 @@
+.MemeGenerator {
+    display: flex;
+    align-items: center;   
+    flex-direction: column; 
+    width: 100%;
+}
+
+.MemeGenerator form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #e6e6e6;
+    border: none;
+    border-radius: 10px;
+    width: 400px;
+    height: 220px;
+    text-align: left;
+    padding-top: 15px;
+}
+
+.MemeGenerator form * {
+    width: 80%;
+}
+
+.MemeGenerator input {
+    margin-bottom: 10px;
+}
+
+.MemeGenerator button {
+    width: 80px;
+}

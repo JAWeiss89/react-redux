@@ -1,0 +1,28 @@
+.Meme {
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+    position: relative;
+    width: 500px;
+    margin: 30px;
+}
+
+.Meme img {
+    height: 100%;
+    width: 100;
+}
+
+.Meme-top {
+    position: absolute;
+    top: 15px;
+    width: 100%;
+    text-align: center;
+}
+
+.Meme-bottom {
+    position: absolute;
+    bottom: 15px;
+    width: 100%;
+    text-align: center;
+}
